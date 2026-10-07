@@ -1,3 +1,44 @@
+<!-- visual-showroom:start -->
+<p align="center">
+  <img src="docs/showroom/readme-banner.svg" alt="Noise Type Classification — repository cover" width="100%">
+</p>
+
+<p align="center">
+  <strong>Noise Type Classification</strong><br>
+  MACHINE LEARNING &amp; LANGUAGE
+</p>
+
+<p align="center">
+  <a href="https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/noise-type-classification"><strong>Explore the showroom ↗</strong></a> ·
+  <a href="#implementation--original-documentation">Setup &amp; implementation ↓</a>
+</p>
+
+Tells which kind of noise an image has (Gaussian, periodic or salt-and-pepper) from its histogram, comparing random forest, SVC, KNN and decision tree on 1,566 images.
+
+## Visual tour
+
+[![Random-forest confusion matrix · original notebook output](docs/showroom/readme-view-1.png)](https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/noise-type-classification)
+
+<p align="center">
+  <a href="https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/noise-type-classification"><img src="docs/showroom/readme-view-2.png" alt="SVC confusion matrix · saved notebook output" width="48%"></a>
+  <a href="https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/noise-type-classification"><img src="docs/showroom/readme-view-3.png" alt="KNN confusion matrix · saved notebook output" width="48%"></a>
+  <a href="https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/noise-type-classification"><img src="docs/showroom/readme-view-4.png" alt="Decision tree confusion matrix · saved notebook output" width="48%"></a>
+</p>
+
+1. Random-forest confusion matrix · original notebook output
+2. SVC confusion matrix · saved notebook output
+3. KNN confusion matrix · saved notebook output
+4. Decision tree confusion matrix · saved notebook output
+
+Original saved notebook outputs, not a product UI or a general model accuracy claim.
+
+## Implementation & original documentation
+
+The existing run instructions, architecture, limitations and credits are preserved below.
+
+---
+<!-- visual-showroom:end -->
+
 # Image Noise Type Classification
 
 Classifying the type of noise in an image (**Gaussian**, **Periodic**, or **Salt & Pepper**) using classic machine-learning models with OpenCV and scikit-learn.
